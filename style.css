@@ -1,0 +1,98 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.colorhilight {
+    color: orange;
+}
+
+.toppart {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+
+.toppart img {
+    width: 100%;
+}
+
+.toppart h1 {
+    font-size: 45px;
+}
+
+.toppart h2 {
+    font-size: 50px;
+}
+
+.toppart h3 {
+    font-size: 20px;
+}
+
+.toppart p {
+    font-size: 20px;
+    color: gray;
+    margin-right: 20px;
+}
+
+.bgimagetop {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 450px;
+    padding-bottom: 15px;
+}
+
+.hbtn {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange, rgb(255, 94, 0));
+    padding: 10px 20px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.dream {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.boxdesign {
+    box-shadow: 10px 10px 40px rgba(91, 19, 226, 0.466);
+    height: 80%;
+}
+
+#exptitle {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.exp {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#fullstack {
+    background-color: white;
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, pink, blue);
+    border-image-slice: 1;
+}
+
+#baby {
+    background-color: white;
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, rgba(151, 94, 151, 0.664), yellow);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
